@@ -1,0 +1,36 @@
+/* Begib cabecera */
+
+.cabecera {
+    border-bottom: #2A9D8F 5px solid;
+}
+
+#imagen {
+    float: left;
+}
+
+#texto {
+    float: left;
+    padding-top: 20px;
+}
+
+
+/* End cabecera */
+
+
+/* Begin cuerpo */
+
+.cuerpo {
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-right: 20%;
+}
+
+#informacion-resumen {
+    float: left;
+    display: inline;
+    justify-content: space-around;
+}
+
+.bar {
+    color: blue;
+}

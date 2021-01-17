@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen Ventas</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="../stylesheets/resumenVentas.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="col-md-12 cabecera">
+        <div id="imagen">
+            <img src="../views/img/logo2_preview_rev_1.png" alt="">
+        </div>
+        <div id="texto">
+            <h2>Resumen Ventas</h2>
+        </div>
+    </div>
+
+    <div class="col-md-12 cuerpo">
+
+        <svg width="600" height="500"></svg>
+
+        <div id="informacion-resumen" class="col-md-12 panel-heading">
+
+            <div id="datosCantidad" class="col-md-3">
+                <label>Cantidad</label>
+                <input type="number" name="cantidad" id="cantidad">
+            </div>
+
+            <div id="datosBeneficio" class="col-md-3">
+                <label for="">Beneficio</label>
+                <input type="text" name="beneficio" id="beneficio">
+
+            </div>
+
+            <div id="contenedorBuscador" class="col-md-3">
+                <label for=""></label>
+                <input type="text" placeholder="buscar" id="buscador">
+            </div>
+
+
+        </div>
+
+
+
+        <table id="informacionVentas" class="table table-striped">
+            <th>Usuario</th>
+            <th>Transacciones</th>
+            <th>Beneficio</th>
+        </table>
+
+    </div>
+
+</body>
+
+
+<script src="../js/resumenVentas.js"></script>
+
+</html>
