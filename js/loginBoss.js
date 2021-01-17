@@ -215,7 +215,7 @@ $(document).ready(function() {
                 success: function(data) {
                     //alert("Data: " + data + "\nStatus: " + status);
                     if (data) {
-                        window.location.replace("/Taller/views/resumenVentas.html");
+                        window.location.replace("/TallerWeb/views/resumenVentas.html");
                     }
 
                 }
