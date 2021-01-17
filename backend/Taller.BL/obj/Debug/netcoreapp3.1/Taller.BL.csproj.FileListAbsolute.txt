@@ -1,0 +1,14 @@
+C:\Users\ABJ\source\repos\Taller\Taller.BL\bin\Debug\netcoreapp3.1\Taller.BL.deps.json
+C:\Users\ABJ\source\repos\Taller\Taller.BL\bin\Debug\netcoreapp3.1\Taller.BL.dll
+C:\Users\ABJ\source\repos\Taller\Taller.BL\bin\Debug\netcoreapp3.1\Taller.BL.pdb
+C:\Users\ABJ\source\repos\Taller\Taller.BL\bin\Debug\netcoreapp3.1\Taller.Core.dll
+C:\Users\ABJ\source\repos\Taller\Taller.BL\bin\Debug\netcoreapp3.1\Taller.DAL.dll
+C:\Users\ABJ\source\repos\Taller\Taller.BL\bin\Debug\netcoreapp3.1\Taller.Core.pdb
+C:\Users\ABJ\source\repos\Taller\Taller.BL\bin\Debug\netcoreapp3.1\Taller.DAL.pdb
+C:\Users\ABJ\source\repos\Taller\Taller.BL\obj\Debug\netcoreapp3.1\Taller.BL.csprojAssemblyReference.cache
+C:\Users\ABJ\source\repos\Taller\Taller.BL\obj\Debug\netcoreapp3.1\Taller.BL.AssemblyInfoInputs.cache
+C:\Users\ABJ\source\repos\Taller\Taller.BL\obj\Debug\netcoreapp3.1\Taller.BL.AssemblyInfo.cs
+C:\Users\ABJ\source\repos\Taller\Taller.BL\obj\Debug\netcoreapp3.1\Taller.BL.csproj.CoreCompileInputs.cache
+C:\Users\ABJ\source\repos\Taller\Taller.BL\obj\Debug\netcoreapp3.1\Taller.BL.csproj.CopyComplete
+C:\Users\ABJ\source\repos\Taller\Taller.BL\obj\Debug\netcoreapp3.1\Taller.BL.dll
+C:\Users\ABJ\source\repos\Taller\Taller.BL\obj\Debug\netcoreapp3.1\Taller.BL.pdb

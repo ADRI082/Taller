@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Taller.Core\Taller.Core.csproj" />
+    <ProjectReference Include="..\Taller.DAL\Taller.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
