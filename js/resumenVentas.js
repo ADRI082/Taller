@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+    buildlegendvalues =
+    [{
+    "1.0": "#79abbd",
+    "2.0": "#6784b4",
+    "3.0": "#9b799b",
+    "4.0": "#a07b70"
+    }]
+
+    bl = 0;
+
     let transaccionesTotales = 0;
     let beneficio = 0;
 
@@ -77,6 +87,16 @@ $(document).ready(function() {
             g.selectAll(".bar")
                 .data(data)
                 .enter().append("rect")
+                .attr("fill", function(d) {
+                    if (d.beneficios > 100000) {
+                        return "#264653";
+                    } else if (d.beneficios > 50000) {
+                        return "green";
+                    } else if (d.beneficios > 25000) {
+                        return "yellow";
+                    }
+                        return "red";
+                    })
                 .attr("class", "bar")
                 .attr("x", function(d) { return xScale(d.user); })
                 .attr("y", function(d) { return yScale(d.beneficios); })
