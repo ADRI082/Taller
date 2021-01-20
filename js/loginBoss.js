@@ -216,6 +216,8 @@ $(document).ready(function() {
                     //alert("Data: " + data + "\nStatus: " + status);
                     if (data) {
                         window.location.replace("/TallerWeb/views/dashboard.html");
+                    } else {
+                        $("#error").css("display", "block");
                     }
 
                 }
