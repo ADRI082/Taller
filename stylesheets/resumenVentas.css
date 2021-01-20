@@ -8,6 +8,15 @@
     float: left;
 }
 
+#volver2{
+    float: right;
+}
+
+#volverimg2{
+    width: 116px;
+    height: 116px;
+}
+
 #texto {
     float: left;
     padding-top: 20px;
@@ -34,4 +43,16 @@
 
 .bar {
     color: blue;
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
 }
